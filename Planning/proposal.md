@@ -67,6 +67,6 @@ https://deckofcardsapi.com/api/deck/<<deck_id>>/draw/?count=2
 }
 
 
-## Component Hierarchy
+## Component Hierarchy *
 ![Component Sheet](https://i.imgur.com/2bnqSZA.png)
 *Note: Welcome is a child of App.

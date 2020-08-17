@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-class Header extends Component {
+//This is where the Title of the page lives
+
+
+class Welcome extends Component {
     constructor(props) {
         super(props);
         this.state = { 
@@ -10,11 +13,14 @@ class Header extends Component {
         return (
             <div>
                 <h1>
-                    Header
+                   Welcome to the Dog House! 
                 </h1>
+                <h2>
+                    Click "Woof!" to see a new doggo!
+                </h2>
             </div>
         );
     }
 }
 
-export default Header;
+export default Welcome;

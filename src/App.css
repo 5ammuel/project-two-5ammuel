@@ -1,0 +1,15 @@
+main {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div {
+    display: flex;
+    
+    width: 40% vmin;
+    
+}
+
+img {
+    max-width: 50% vmin;
+    min-width: 50% vmin;
+}

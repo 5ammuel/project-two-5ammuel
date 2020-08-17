@@ -1,15 +1,57 @@
 main {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
 
 div {
     display: flex;
-    
-    width: 40% vmin;
+    flex-direction: column;
+    max-width: 40% vmin;
     
 }
-
 img {
-    max-width: 50% vmin;
-    min-width: 50% vmin;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.imageHolster {
+    display: flex;
+    max-width: 40% vmin;
+    min-width: 40% vmin;
+    align-self: center;
+    overflow: none;
+    flex-shrink: 100%;
+    flex-grow: 100%;
+}
+
+.random {
+ width: 120px;
+ height: 60px;
+ font-size: xx-large;
+ font-weight: bold;
+}
+
+.randomonium {
+ width: 240px;
+ height: 60px;
+ font-size: xx-large;
+ font-weight: bolder;
+
+}
+
+.buttonRow {
+ display: flex;
+ align-self: center;
+ flex-direction: row;
+ margin: 10px;
+}
+
+h1 {
+    color: white;
+    margin: auto;
+}
+
+h2 {
+    color: white;
+    background-color: rgba(112, 128, 144, 0.425);
 }

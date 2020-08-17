@@ -10,12 +10,12 @@ class Buttons extends Component {
 
 	render() {
 		return (
-			<div>
+			<div className="buttonRow">
 				<button className='random' onClick={this.props.randomDog}>
 					Woof!
 				</button>
 				<button className='randomonium' onClick={this.props.randomoniumDogs}>
-					WOOF!
+					CORGI MODE
 				</button>
 			</div>
 		);

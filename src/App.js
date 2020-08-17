@@ -44,12 +44,12 @@ class App extends Component {
 	}
 
 	randomoniumDogs=() => {
-		fetch('https://dog.ceo/api/breeds/image/random/11')
+		fetch('https://dog.ceo/api/breed/pembroke/images/random')
 			.then((res) => {
 				return res.json();
 			})
 			.then((dogData) => {
-				this.setState({ images: dogData.message });
+				this.setState({ images: [dogData.message] });
 				console.log(dogData);
 			})
 			.catch((err) => {

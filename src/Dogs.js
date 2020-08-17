@@ -9,8 +9,7 @@ const Dogs = (props) => {
 	};
 	return (
 		<div>
-			This is where photos will display
-			<section>{showImages()}</section>
+			<section className="imageHolster">{showImages()}</section>
 		</div>
 	);
 };

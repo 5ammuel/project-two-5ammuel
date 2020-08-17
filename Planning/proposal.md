@@ -2,7 +2,7 @@
 
 ## Project Description
 
-My app is called The Daily Dog House.  It's a random image app for people who enjoy the occasional canid candid!  Users can view random doggos one at a time, or turn things up to 11 by viewing, 11 dogs at a time!  In the future I'd like to add some quality of life functionality like additional interface buttons.
+My app is called The Daily Dog House.  It's a random image app for people who enjoy the occasional canid candid!  Users can view random doggos one at a time, or activate "Corgi Mode" and search for random corgi images specifically!  In the future I'd like to add some quality of life functionality like additional interface buttons.
 
 
 ## Wireframes
